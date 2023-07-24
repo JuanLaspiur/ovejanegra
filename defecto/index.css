@@ -1,0 +1,114 @@
+@import url("https://fonts.googleapis.com/css2?family=Source+Sans+Pro:wght@300&display=swap");
+
+* {
+  list-style: none;
+  font-style: none;
+  font-family: "Source Sans Pro", sans-serif;
+}
+/*HEADER-------------------------------------------------------------------------------------*/
+/*--------------HEADER SUPERIOR--------------------------------------------------------------*/
+.header__superior img {
+  margin-left: 20px;
+  margin-top: 20px;
+  width: 90px;
+}
+.header__superior {
+  height: 100%;
+}
+#imagengraciosa {
+  position: absolute;
+  left: 90%;
+  top: 43px;
+}
+#imagen__cafefrio {
+  width: 225px;
+}
+#imagen__waflet{
+width:225px ;
+height: 225px;
+
+
+}
+/*----HEADER--------------------------------------------------------------------------------*/
+/*------------HEADER INFERIOR---------------------------------------------------------------*/
+header > nav > ul > li > a {
+  list-style: none;
+  color: antiquewhite;
+  text-decoration: none;
+}
+ header > nav > ul > li {
+  display: inline-block;
+  padding: 15px 40px;
+  color: antiquewhite;
+}
+body header nav {
+  background-color: #5d6d7e;
+}
+/*--MAIN--------------------------------------------------------------------------------*/
+/*------------------MAIN SUMERIOR..-----------------------------------------------------*/
+#titulo {
+  position: absolute;
+  top: 0;
+  left: 220px;
+  font-size: 60px;
+}
+.imagenes__del__main {
+ display: grid;
+ grid-template-columns: repeat(4,25%);
+}
+
+.imagenes__del__main img{
+margin: 50px 20px;
+
+}
+
+
+.caja__contenedora{  
+  display: grid;
+  grid-template-columns: repeat(3, 33%) ;
+
+}
+#testimonio1, #testimonio2,#testimonio3  {
+  background-color: #5d6d7e8b;
+  padding: 30px;
+
+}
+
+
+@media (max-width: 850px) {
+
+  #titulo{ 
+    display:none;
+
+}
+
+.imagenes__del__main {
+  display: grid;
+  grid-template-columns: 50%;
+  margin-left:20% ;
+
+}
+
+#imagengraciosa {
+ display: none;
+}
+
+#foto-mal-hecha{
+display: none;
+
+}
+.caja__contenedora{  
+  display: grid;
+  grid-template-columns: repeat(3, 33%) ;
+
+}
+#testimonio1, #testimonio2,#testimonio3  {
+  background-color: #5d6d7e86;
+  padding: 0px;
+  margin: 0;
+
+}
+}
+
+
+
