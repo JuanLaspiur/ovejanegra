@@ -5,6 +5,7 @@
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="user-scalable=no, width=device-width, initial-scale=1">
   <link rel="stylesheet" href="css/style.css">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-4bw+/aepP/YC94hEpVNVgiZdgIC5+VKNBQNGCHeKRQN+PtmoHDEXuppvnDJzQIu9" crossorigin="anonymous">
   <title>Oveja Negra Café</title>
 </head>
 <body>
@@ -26,11 +27,34 @@
 
 <div class="main_responsible">
     <div class="imgs_res">
-        <img src="img/alfajores-dibujo.jpg" alt="">
-        <img src="img/waflet-obeja-negra.jpg" alt="">
-        <img src="img/cafe-media-luna.jpg" alt="">
-        <img src="img/cafe-frio.jpg" alt="">
-        <img src="img//torta-obeja-negra.jpg" alt="">
+      <div id="carouselExampleControls" class="carousel slide" data-bs-ride="carousel">
+        <div class="carousel-inner">
+          <div class="carousel-item active">
+            <img src="img/alfajores-dibujo.jpg" class="d-block w-100" alt="">
+          </div>
+          <div class="carousel-item">
+            <img src="img/waflet-obeja-negra.jpg" class="d-block w-100" alt="">
+          </div>
+          <div class="carousel-item">
+            <img src="img/cafe-media-luna.jpg" class="d-block w-100" alt="">
+          </div>
+          <div class="carousel-item">
+            <img src="img/cafe-frio.jpg" class="d-block w-100" alt="">
+          </div>
+          <div class="carousel-item">
+            <img src="img/torta-obeja-negra.jpg" class="d-block w-100" alt="">
+          </div>
+        </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="prev">
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Anterior</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="next">
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Siguiente</span>
+        </button>
+      </div>
+      
     </div>
 
 
@@ -148,6 +172,6 @@
 </div>
 
 
-
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
 </body>
 </html>
